@@ -7,7 +7,16 @@
    input[value="Reverse!"] {
    color: blue}
 
+   input[value="Go to Project"] {
+   border: 4px double red;
+   width: 150px;
+   hight:30px;
+   font-weight: bold;
+   font-size: 16px}
 
+   input[value="Go to Project"]:hover {
+   color: darkred;
+   cursor: pointer}
 </style>
 </head>
 <body>
@@ -15,6 +24,10 @@
 <form>
     <textarea rows="25" cols="50" name="Feedback" placeholder="Input your text"></textarea><br><br>
     <input type="submit", value="Reverse!">
+</form>
+<br><br>
+<form action="{%url 'project' %}">
+   <input type="submit", value="Go to Project">
 </form>
 </body>
 </html>
