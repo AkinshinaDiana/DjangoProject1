@@ -1,6 +1,6 @@
 <h1>Hello &#128075;! My name is Diana!</h1>
 <h2>I am an IT Student</h2>
-<h2>I've been studying:</h2><br>
+<h2>I'm currently studying:</h2><br>
 <ul><li> Python </li>
     <li> HTML </li>
     <li> CSS </li>
