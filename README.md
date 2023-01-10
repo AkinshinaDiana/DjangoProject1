@@ -5,4 +5,4 @@
     <li> HTML </li>
     <li> CSS </li>
     <li> Django </li></ul>
- <p>This directory I use for a demonstration of my homeworks</p>
+ <p>This directory &#128070; I use for a demonstration of my homeworks</p>
