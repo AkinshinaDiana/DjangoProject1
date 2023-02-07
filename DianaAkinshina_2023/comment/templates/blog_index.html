@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block page_content %}
+<h1>{{ comment.title }}</h1>
+
+        <h5>Текст поста:</h5>
+        <p>{{comment.body }}</p>
+        <br>
+        <h5>Дата создания:</h5>
+        <p>{{ comment.created_on }}</p>
+    </div>
+</div>
+{% endblock %}

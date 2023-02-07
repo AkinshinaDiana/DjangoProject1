@@ -19,7 +19,9 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', views.about),
-    path('', views.home),
+    path('', views.home, name = 'home'),
+    path('reversed/', views.reversed, name = 'reversed'),
     path('', include('project.urls')),
+    path('', include('comment.urls'))
 
 ]
